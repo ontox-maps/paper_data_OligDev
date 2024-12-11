@@ -5180,25 +5180,6 @@
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
 </celldesigner:speciesAlias>
-<celldesigner:speciesAlias id="sa319" species="s579" compartmentAlias="ca2">
-<celldesigner:activity>inactive</celldesigner:activity>
-<celldesigner:bounds x="1875.0" y="2715.0" w="200.0" h="40.0"/>
-<celldesigner:font size="12"/>
-<celldesigner:view state="usual"/>
-<celldesigner:usualView>
-<celldesigner:innerPosition x="1815.0" y="1905.0"/>
-<celldesigner:boxSize width="200.0" height="40.0"/>
-<celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="ffcc99ff" scheme="Color"/>
-</celldesigner:usualView>
-<celldesigner:briefView>
-<celldesigner:innerPosition x="0.0" y="0.0"/>
-<celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="1.0"/>
-<celldesigner:paint color="3fff0000" scheme="Color"/>
-</celldesigner:briefView>
-<celldesigner:info state="empty" angle="-1.5707963267948966"/>
-</celldesigner:speciesAlias>
 <celldesigner:speciesAlias id="sa320" species="s889" compartmentAlias="ca2">
 <celldesigner:activity>inactive</celldesigner:activity>
 <celldesigner:bounds x="3265.0" y="2630.0" w="200.0" h="40.0"/>
@@ -5213,7 +5194,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5232,7 +5213,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5251,7 +5232,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5270,7 +5251,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5289,7 +5270,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -5308,7 +5289,7 @@
 <celldesigner:briefView>
 <celldesigner:innerPosition x="0.0" y="0.0"/>
 <celldesigner:boxSize width="80.0" height="60.0"/>
-<celldesigner:singleLine width="0.0"/>
+<celldesigner:singleLine width="1.0"/>
 <celldesigner:paint color="3fff0000" scheme="Color"/>
 </celldesigner:briefView>
 <celldesigner:info state="empty" angle="-1.5707963267948966"/>
@@ -18896,7 +18877,7 @@
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:GateMember>
-<celldesigner:GateMember type="POSITIVE_INFLUENCE" aliases="sa54" targetLineIndex="-1,0" editPoints="0.2778502299402845,0.10323289175646883 0.3991488777541363,-0.2232411284233647">
+<celldesigner:GateMember type="POSITIVE_INFLUENCE" aliases="sa54" targetLineIndex="-1,0" editPoints="0.2778502299402845,0.10323289175646927 0.3991488777541363,-0.2232411284233647">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -18979,7 +18960,7 @@
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:GateMember>
-<celldesigner:GateMember type="POSITIVE_INFLUENCE" aliases="sa124" targetLineIndex="-1,0" editPoints="0.25604519516612445,0.08565212934382749 0.356686447145119,-0.21520097497636614">
+<celldesigner:GateMember type="POSITIVE_INFLUENCE" aliases="sa124" targetLineIndex="-1,0" editPoints="0.2560451951661227,0.08565212934382704 0.356686447145119,-0.21520097497636614">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -19229,7 +19210,7 @@
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ffff3333"/>
 </celldesigner:GateMember>
-<celldesigner:GateMember type="NEGATIVE_INFLUENCE" aliases="sa133" targetLineIndex="-1,0" editPoints="0.06621976048436573,0.21261591258657356 0.977794571334584,-0.07129635392124581">
+<celldesigner:GateMember type="NEGATIVE_INFLUENCE" aliases="sa133" targetLineIndex="-1,0" editPoints="0.06621976048436573,0.21261591258657345 0.977794571334584,-0.07129635392124581">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -19329,7 +19310,7 @@
 <celldesigner:editPoints>3250.0,2840.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfGateMember>
-<celldesigner:GateMember type="BOOLEAN_LOGIC_GATE_OR" aliases="sa11,sa320" modificationType="POSITIVE_INFLUENCE" targetLineIndex="-1,-1" editPoints="3250.0,2840.0">
+<celldesigner:GateMember type="BOOLEAN_LOGIC_GATE_OR" aliases="sa11,sa320" modificationType="POSITIVE_INFLUENCE" editPoints="3250.0,2840.0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -19405,7 +19386,7 @@
 <celldesigner:editPoints>4440.0,2840.0</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfGateMember>
-<celldesigner:GateMember type="BOOLEAN_LOGIC_GATE_OR" aliases="sa321,sa21" modificationType="POSITIVE_INFLUENCE" targetLineIndex="-1,0" editPoints="4440.0,2840.0">
+<celldesigner:GateMember type="BOOLEAN_LOGIC_GATE_OR" aliases="sa321,sa21" modificationType="POSITIVE_INFLUENCE" editPoints="4440.0,2840.0">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
